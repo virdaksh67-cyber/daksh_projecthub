@@ -1,3 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
 int m;// row 
 cout<<"enter the rows";
 cin>>m;
@@ -35,5 +40,9 @@ for(int i=0;i<m;i++){
         cout<<arr[i][j]<<" "; // add " " bw elemtn and aftaer line complete add endl
     }
     cout<<endl;
+}
+}
+
+return 0;
 }
 
